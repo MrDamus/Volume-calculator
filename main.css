@@ -1,0 +1,57 @@
+@keyframes infinite-spinning {
+  0% {
+    transform: rotate(0deg);
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+    transform: scale(1);
+  }
+}
+
+body {
+  background-color: salmon
+}
+.wrapper {
+  display: inline-block;
+  height: 300px;
+  margin: 40px;
+  position: relative;
+}
+#figure, #figure2 {
+  border: 2px solid magenta
+}
+
+.diagonal {
+  height: 2px;
+  transform: rotate(45deg );
+  transform-origin: 5%;
+  background: magenta;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+button {
+  background-color: yellow
+}
+button:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: red
+}
+h4 {
+  color: darkgreen
+}
