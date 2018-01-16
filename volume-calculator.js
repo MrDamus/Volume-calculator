@@ -1,8 +1,8 @@
-function _generateRandomNumber() {
+function _generateRandomNumber () {
   const random = Math.random() * 11
   return Math.floor(random) + 1
 }
-function populateFields() {
+function populateFields () {
   const a = _generateRandomNumber()
   const b = _generateRandomNumber()
   const c = _generateRandomNumber()
@@ -29,7 +29,7 @@ function populateFields() {
     diagonals[i].style.width = Math.ceil(c * 5 * Math.sqrt(2)) + 5
   }
 }
-function calculateVolume() {
+function calculateVolume () {
   const aDisplay = document.getElementById('a')
   const bDisplay = document.getElementById('b')
   const cDisplay = document.getElementById('c')
