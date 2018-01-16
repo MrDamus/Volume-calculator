@@ -1,12 +1,12 @@
 {
-  "name": "objetocs-bryly",
+  "name": "objetosc-bryly",
   "version": "1.0.0",
   "description": "",
   "main": "ob.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Damian Karwowski",
   "license": "ISC",
   "devDependencies": {
     "eslint-config-standard": "^10.2.1",
